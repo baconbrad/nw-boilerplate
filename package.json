@@ -2,16 +2,9 @@
 	"name": "nw-boilerplate",
 	"description": "A Boilerplate NW App",
 	"version": "0.0.1",
+	"main": "index.html",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/baconface/nw-boilerplate.git"
-	},
-	"main": "index.html",
-	"node-remote": "<local>",
-	"window": {
-		"frame": true,
-		"toolbar": false,
-		"position": "center"
-	},
-	"chromium-args": "--remote-debugging-port=9222"
+	}
 }
